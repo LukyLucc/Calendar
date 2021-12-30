@@ -44,3 +44,12 @@ body{
   text-underline-offset: 6px;
 }
 
+.text{
+  color: #484846;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.button-slider-container{
+  position: relative;
+}
