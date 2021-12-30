@@ -1,3 +1,3 @@
 # Web-Calender
 
-It's a small fucntional Calender for your Website. 
+It's a small fucntional Calendar for your Website. 
