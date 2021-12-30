@@ -1,0 +1,46 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color:#f4f4f4; 
+  font-style: normal;
+  color: #303633;
+}
+
+.kalender-container{
+  background-color:white;
+  width: 300px;
+  margin-left: 500px;
+  margin-top: 200px;
+}
+
+.month{
+  text-align: center;
+  color: #484846;
+  padding-top: 20px;
+}
+
+.button-month{
+  background-color: transparent;
+  color: gray;
+  border: none;
+  cursor: pointer;
+  height: 24px;
+  position: absolute;
+}
+.button-month-right{
+  top: 50%;
+  right: 2px;
+}
+
+.button-month-left{
+  top: 50%;
+  left: 2px;
+}
+
+.table{
+  height: 240px;
+  text-align: center;
+  color: #484846;
+  text-decoration-thickness: 6px;
+  text-underline-offset: 6px;
+}
+
