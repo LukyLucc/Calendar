@@ -56,6 +56,7 @@ function update(){
         myTable.rows[row].cells[cell].innerHTML = i;
         if (currentyear < actualyear || (currentmonth<actualmonth && currentyear == actualyear) || (currentmonth == actualmonth && currentyear == actualyear && i < actualday) ){
             myTable.rows[row].cells[cell].style.color = "#ced0ce";
+            //myTable.rows[row].cells[cell].style.backgroundColor = "#f07955";
         }
         if (currentmonth == actualmonth && currentyear == actualyear && i == actualday){
             myTable.rows[row].cells[cell].style.textDecoration = "underline";
@@ -75,7 +76,7 @@ function clear(){
     for (let i = 1; i<7; i++){
         for (let j = 0; j<7; j++){
             myTable.rows[i].cells[j].innerHTML = ""; 
-            myTable.rows[i].cells[j].style.color = "#303633";
+            myTable.rows[i].cells[j].style.color = "#484846";
             myTable.rows[i].cells[j].style.textDecoration = "none";
         }
     }

@@ -15,7 +15,7 @@ body{
 .month{
   text-align: center;
   color: #484846;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 .button-month{
@@ -42,6 +42,7 @@ body{
   color: #484846;
   text-decoration-thickness: 6px;
   text-underline-offset: 6px;
+  
 }
 
 .text{
@@ -52,4 +53,9 @@ body{
 
 .button-slider-container{
   position: relative;
+}
+
+.weekdays{
+  height: 40px;
+  color: #f07955;
 }

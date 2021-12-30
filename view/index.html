@@ -12,12 +12,12 @@
     <body onload="init()">
     <div class="kalender-container">
         <div class="button-slider-container">
-            <h2 class="month" id="month"> </h2>
+            <h3 class="month" id="month"> </h3>
             <button onclick="nextMonth()" class="button-month-right button-month text fa fa-chevron-right" id="Right1"> </button>
             <button onclick="prevMonth()" class="button-month-left button-month text fa fa-chevron-left" id="Left1"> </button>
         </div>
-        <table style="width:100%" id="tabel">
-            <thead style="color: #f07955;">
+        <table style="width:100%; margin-top: 30px; padding-bottom: 12px; border-collapse: collapse;" id="tabel">
+            <thead class="weekdays">
                 <th>Mo</th>
                 <th>Di</th>
                 <th>Mi</th>
